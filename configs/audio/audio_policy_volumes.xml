@@ -23,6 +23,7 @@ volume index from 0 to 100.
 -->
 
 <volumes>
+
     <volume stream="AUDIO_STREAM_VOICE_CALL" deviceCategory="DEVICE_CATEGORY_HEADSET"
                                              ref="HEADSET_VOICE_VOLUME_CURVE"/>
     <volume stream="AUDIO_STREAM_VOICE_CALL" deviceCategory="DEVICE_CATEGORY_SPEAKER"
