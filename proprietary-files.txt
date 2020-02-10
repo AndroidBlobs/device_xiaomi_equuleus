@@ -748,6 +748,10 @@ vendor/lib64/libsdm-diag.so
 -vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libtinyxml2_1.so
 
+# HotwordEnrollment
+-priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk
+-priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk
+
 # IOP
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
@@ -1563,12 +1567,10 @@ etc/permissions/vendor-xiaomi-hardware-citsensorservice.xml
 etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
 etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.0-java-permission.xml
 etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.1-java-permission.xml
-etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.2-java-permission.xml
 etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml
 framework/vendor.xiaomi.hardware.misys-V1.0-java.jar
 framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar
 framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar
-framework/vendor.xiaomi.hardware.mtdservice-V1.2-java.jar
 framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar
 lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
 lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
@@ -1708,10 +1710,12 @@ vendor/bin/spectraltool
 vendor/bin/test_diag
 vendor/bin/vendor_cmd_tool
 vendor/bin/vsimd
--vendor/data-app/SmartHome/SmartHome.apk
--vendor/data-app/wps-lite/wps-lite.apk
--vendor/data-app/XMRemoteController/XMRemoteController.apk
--vendor/data-app/Youpin/Youpin.apk
+-vendor/data-app/Drive/Drive.apk
+-vendor/data-app/Miui_Fashiongallery_global_new/Miui_Fashiongallery_global_new.apk
+-vendor/data-app/Music2/Music2.apk
+-vendor/data-app/Photos/Photos.apk
+-vendor/data-app/Videos/Videos.apk
+-vendor/data-app/wps_lite/wps_lite.apk
 vendor/etc/hdr_config.cfg
 vendor/etc/pm_test_item_config.xml
 vendor/etc/rcv.wav
